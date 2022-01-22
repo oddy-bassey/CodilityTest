@@ -6,6 +6,9 @@ public class CyclicRotation {
 
 	public int[] mySolution(int data[], int k) {
 		
+		if(data.length == 0 || data.length == k)
+			return data;
+		
 		while(k>0) {
 			
 			int currentValue = data[0] , nextValue = 0;
@@ -27,6 +30,9 @@ public class CyclicRotation {
 	
 	public int[] rotateArray(int data[], int k) {
 		
+		if(data.length == 0 || data.length == k)
+			return data;
+		
 		for (int i=0; i<k; i++) {
 			int lastValue = data[data.length-1];
 			
@@ -43,7 +49,7 @@ public class CyclicRotation {
 	public static void main(String[] args) { 
 		CyclicRotation cyclicRotation = new CyclicRotation(); 
 		
-		int[] result = cyclicRotation.mySolution(new int[]  {0,0,3,8,9,7,6}, 3);
+		int[] result = cyclicRotation.mySolution(new int[]  {}, 6);
 		for(int i=0; i<result.length; i++) { 
 			System.out.print(result[i]+" ");
 		}
