@@ -1,5 +1,6 @@
 package com.revoltcode.CodilityTest;
 
+// COUNTING ELEMTENS SECTION
 public class MaxCounters {
 
 	public int[] solution(int n, int[] array) {

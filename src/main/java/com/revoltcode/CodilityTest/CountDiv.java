@@ -1,5 +1,6 @@
 package com.revoltcode.CodilityTest;
 
+// PREFIX SUMS SECTION
 public class CountDiv {
 
 	public int solution(int a, int b, int k) {

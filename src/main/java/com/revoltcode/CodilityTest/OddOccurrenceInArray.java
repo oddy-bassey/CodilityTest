@@ -2,6 +2,7 @@ package com.revoltcode.CodilityTest;
 
 import java.util.HashSet;
 
+// ARRAY TEST
 public class OddOccurrenceInArray {
 
 	public int getOddArray(int[] data) {

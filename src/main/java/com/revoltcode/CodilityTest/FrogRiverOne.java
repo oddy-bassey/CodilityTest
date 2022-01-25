@@ -2,6 +2,7 @@ package com.revoltcode.CodilityTest;
 
 import java.util.HashSet;
 
+//COUNTING ELEMTENS SECTION
 public class FrogRiverOne {
 
 	public int solution(int x, int[] array) {

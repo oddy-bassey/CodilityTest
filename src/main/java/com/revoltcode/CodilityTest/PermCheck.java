@@ -2,6 +2,7 @@ package com.revoltcode.CodilityTest;
 
 import java.util.HashSet;
 
+// COUNTING ELEMENTS SECTION
 public class PermCheck {
 
 	public int solution(int[] data) {

@@ -1,5 +1,6 @@
 package com.revoltcode.CodilityTest;
 
+//TIME COMPLEXITY TEST
 public class FrogJump {
 
 	public int getNoPossibleJumps(int x, int y, int d) {

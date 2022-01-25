@@ -1,5 +1,6 @@
 package com.revoltcode.CodilityTest;
 
+// TIME COMPLEXITY TEST
 public class TapeEquilibrum {
 
 	public int solution(int[] data) {
