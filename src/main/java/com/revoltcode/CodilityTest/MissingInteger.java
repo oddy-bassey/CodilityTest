@@ -8,7 +8,7 @@ public class MissingInteger {
 		
 		HashSet<Integer> valueSet = new HashSet();
 		
-		for(int i=1; i<data.length+1; i++) {
+		for(int i=1; i<=data.length+1; i++) {
 			valueSet.add(i);
 		}
 		
@@ -20,6 +20,6 @@ public class MissingInteger {
 	
 	public static void main(String[] args) {
 		MissingInteger mi = new MissingInteger();
-		System.out.println(mi.solution(new int[] {1,3,6,4,1,2}));
+		System.out.println(mi.solution(new int[] {1,2,3}));
 	}
 }
