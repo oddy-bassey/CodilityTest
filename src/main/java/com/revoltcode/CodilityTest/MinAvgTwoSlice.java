@@ -15,7 +15,7 @@ public class MinAvgTwoSlice {
             int sumOf2 = val1 + val2;
             if(sumOf2 < minSumOf2){
                 minSumOf2 = sumOf2;
-                indexOfMinOf2 = 1;
+                indexOfMinOf2 = i;
             }
 
             if(i<A.length-2){
@@ -29,7 +29,7 @@ public class MinAvgTwoSlice {
         }
         if(indexOfMinOf3 == -1) return indexOfMinOf2;
         double avg2 = (double)minSumOf2 / 2;
-        double avg3 = (double)minSumOf3 / 2;
+        double avg3 = (double)minSumOf3 / 3;
         if(avg2 < avg3) return indexOfMinOf2;
         if(avg3 < avg2) return indexOfMinOf3;
 
