@@ -50,8 +50,8 @@ public class CyclicRotation {
 		CyclicRotation cyclicRotation = new CyclicRotation(); 
 		
 		int[] result = cyclicRotation.mySolution(new int[]  {}, 6);
-		for(int i=0; i<result.length; i++) { 
-			System.out.print(result[i]+" ");
+		for (int j : result) {
+			System.out.print(j + " ");
 		}
 	}
 }

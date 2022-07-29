@@ -14,7 +14,7 @@ public class PermMissingElem {
 		}
 		
 		for(int i=0; i<data.length; i++) {
-			valueSet.remove((Integer) data[i]);
+			valueSet.remove(data[i]);
 		}
 		
 		return valueSet.iterator().next();

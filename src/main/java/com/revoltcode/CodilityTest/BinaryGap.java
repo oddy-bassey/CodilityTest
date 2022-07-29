@@ -5,7 +5,7 @@ public class BinaryGap {
 	public int solution(int n) {
 		
 		String binaryString = Integer.toBinaryString(n); 
-		System.out.println("Binary Stirng - "+binaryString);
+		System.out.println("Binary String - "+binaryString);
 		
 		boolean started = false;
 		int counter = 0, maxCount = 0;
@@ -15,7 +15,7 @@ public class BinaryGap {
 			
 			if(c.equals("1")) {
 				if(started) {
-					maxCount = (counter > maxCount)? counter : maxCount;
+					maxCount = Math.max(counter, maxCount);
 				}
 				
 				started = true;
@@ -30,7 +30,7 @@ public class BinaryGap {
 	public static void main(String[] args) {
 		BinaryGap binaryGap = new BinaryGap();
 		
-		System.out.println("Mnaximum Binary Gap -"+binaryGap.solution(21));
+		System.out.println("Maximum Binary Gap -"+binaryGap.solution(21));
 	}
 }
 
